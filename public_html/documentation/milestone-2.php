@@ -12,6 +12,6 @@
 </p>
 <p><strong>Portfolio:</strong> I want to maybe put some of my graphics and future side projects in here as well as the finished capstone from the fullstack boot camp. I want each pic to have a thumbnail and then be able to zoom in to see the full picture.</p>
 <p><strong>Contacts:</strong> These will be links to my social media and linked in as well as others.</p>
-<img src="pwp2wireframe.png">
+<img src="pwp2wireframe.png" alt="picture">
 </body>
 </html>
