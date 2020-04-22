@@ -1,7 +1,15 @@
-header {
-	background-image: url(../images/seattle-skyline-and-mt-rainier-panoramic-adam-romanowicz.jpg);
-	background-repeat: no-repeat;
-	background-attachment: scroll;
-	background-position: top center;
-	background-size: cover;
+
+	.intro-section {
+		padding-top: 469px !important;
+		padding-bottom: 80px !important;
+		background-image: url(../images/seattle-skyline-and-mt-rainier-panoramic-adam-romanowicz.jpg) !important;
+		background-size: 1150px !important;
+		background-repeat: no-repeat !important;
+		background-position: center center;
+		color: white;
+		position: relative;
+		height: 100%;
+		text-align: center;
+		background: #fff;
+	}
 
