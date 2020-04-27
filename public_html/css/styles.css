@@ -1,40 +1,36 @@
-.intro-section{
-	background-image: url(../images/Test.jpg) !important;
+body{
+	background-color: green;
 }
 
-
-
-
-
-
-/*
-@media screen and (min-width: 768px) {
-	.intro-section {
-		background-image: url(../images/Test.jpg) !important;
-		background-size: cover !important;
-		background-repeat: no-repeat !important;
-		background-position: center center !important;
-		color: white;
-		position: relative;
-		height: 100%;
-		padding-top: 380px !important;
-		padding-bottom: 120px !important;
-		text-align: center;
-		background: #fff;
-	}
+.navbar{
+	background-color: black;
 }
-@media screen and (max-width: 768px) {
-	.intro-section {
-		padding-top: 230px !important;
-		padding-bottom: 80px !important;
-		background-image: url(../images/seattle-skyline-and-mt-rainier-panoramic-adam-romanowicz.jpg) !important;
-		background-size: cover !important;
-		background-repeat: no-repeat !important;
-		background-position: center center !important;
-		color: white;
-		position: relative;
-		height: 100%;
-		text-align: center;
-		background: #fff;
-	}
+.text-color{
+	color: #4ee47e;
 }
+
+.navbar .navbar-toggler{
+	color: #4ee47e;
+	border-color: #4ee47e;
+}
+
+.nav-link{
+	color: #4ee47e;
+}
+
+a {
+	color: #4ee47e;
+}
+
+.about-section{
+	background-color: black;
+}
+
+h1 {
+	color: #4ee47e;
+}
+
+p{
+	color: #4ee47e;
+}
+
