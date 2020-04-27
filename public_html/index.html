@@ -143,7 +143,43 @@
 	<!--end of portfolio section-->
 
 	<!--contact section-->
+	<form class="form" id="my-contact-form" action="../php/mailer.php" method="POST">
+		<div class="contactWrapper">
+			<div class="form-wrapper">
+				<div class="container text-white p-5 text-wrap">
+					<div class="row">
+						<h3 class="text-center col-12 text-dark"></h3>
+						<div class="col-md-6">
+							<div class="form-group">
+								<input type="text" name="contactName" id="contactName" class="form-control" placeholder="Your Name:"/>
+							</div>
+							<div class="form-group">
+								<input type="text" name="contactEmail" id="contactEmail"  class="form-control" placeholder="Your Email:"/>
+							</div>
+							<div class="form-group">
+								<input type="text" name="contactPhone" id="contactPhone"  class="form-control" placeholder="Phone Number"/>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="form-group">
+								<input type="text" name="contactSubject" id="contactSubject"  class="form-control" placeholder="Subject:">
+							</div>
+							<textarea name="contactMessage" id="contactMessage"  class="form-control" placeholder="Hello!"
+										 style="width: 100%; height: 150px;"></textarea>
+							<div class="g-recaptcha" data-sitekey="6LeWBOwUAAAAABAUtZyKqg2Xs9huDuFWe4RIwps_"></div>
 
+							<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
+							<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
+						</div>
+					</div>
+					<div class="row">
+						<div class="justify-content-center col-md-10">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</form>
 	<!--end of contact section-->
 	<!--footer-->
 	<footer>
