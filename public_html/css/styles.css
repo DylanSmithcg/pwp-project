@@ -22,12 +22,28 @@ a {
 	color: #4ee47e;
 }
 
+.centered {
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+h1{
+	color: black;
+}
+
 .about-section{
 	background-color: black;
 }
 
-h1 {
+h2 {
 	color: #4ee47e;
+}
+
+.img-thumbnail {
+	background-color: #4ee47e;
+	border: 3px solid #4ee47e;
 }
 
 p{
