@@ -50,6 +50,26 @@ p{
 	color: #4ee47e;
 }
 
+.form{
+	background-color: black;
+}
+
+h3{
+	color: #4ee47e;
+}
+
+.form-control{
+	color: black;
+	background-color: #4ee47e;
+	border: 1px solid #4ee47e;
+}
+
+
+.btn-color{
+	color: black;
+	background-color: #4ee47e;
+}
+
 .foot{
 	background-color: black;
 }
