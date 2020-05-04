@@ -1,9 +1,14 @@
 body{
 	background-color: white;
+	color: #4ee47e;
 }
 
 .navbar{
 	background-color: black;
+}
+
+.nav-toggler-icon{
+	background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(74,216,118,0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e)");
 }
 .text-color{
 	color: #4ee47e;
@@ -37,7 +42,7 @@ h1{
 	background-color: black;
 }
 
-h2 {
+h3 {
 	color: #4ee47e;
 }
 
@@ -58,6 +63,14 @@ p{
 	background-color: black;
 }
 
+.skills-section{
+	background-color: black;
+}
+
+.col-6{
+	color: #4ee47e;
+}
+
 .carousel-inner{
 	border: 6px solid #4ee47e;
 }
@@ -68,12 +81,11 @@ p{
 	border: 1px solid #4ee47e;
 }
 
-
 .btn-color{
 	color: black;
 	background-color: #4ee47e;
 }
 
 .foot{
-	background-color: black;
+	background-color: #4ee47e;
 }
